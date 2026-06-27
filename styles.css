@@ -15,7 +15,7 @@
   --shadow: 0 18px 42px rgba(16, 32, 27, 0.08);
   --shadow-hover: 0 20px 46px rgba(16, 32, 27, 0.12);
   --radius: 8px;
-  --serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --serif: "Libre Baskerville", Georgia, "Times New Roman", serif;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
 }
 
@@ -193,15 +193,17 @@ h3 {
 .section-title {
   color: var(--ink);
   font-family: var(--serif);
-  font-weight: 700;
-  line-height: 1.06;
+  font-weight: 400;
+  line-height: 1.12;
   letter-spacing: 0;
 }
 
 .hero h1 {
-  max-width: 780px;
+  max-width: 940px;
   margin-bottom: 24px;
-  font-size: 5.15rem;
+  font-size: 4.55rem;
+  font-weight: 400;
+  line-height: 1.13;
   letter-spacing: 0;
 }
 
@@ -382,7 +384,9 @@ h3 {
 
 .section-title {
   margin-bottom: 20px;
-  font-size: 3.15rem;
+  font-size: 2.82rem;
+  font-weight: 700;
+  line-height: 1.18;
 }
 
 .prose {
@@ -803,12 +807,12 @@ td {
   }
 
   .hero h1 {
-    font-size: 4.1rem;
-    line-height: 1.07;
+    font-size: 3.65rem;
+    line-height: 1.14;
   }
 
   .section-title {
-    font-size: 2.72rem;
+    font-size: 2.48rem;
   }
 
   .feature-grid,
@@ -838,8 +842,8 @@ td {
   }
 
   .hero h1 {
-    font-size: 3.18rem;
-    line-height: 1.08;
+    font-size: 2.62rem;
+    line-height: 1.16;
   }
 
   .hero-text,
@@ -849,8 +853,8 @@ td {
   }
 
   .section-title {
-    font-size: 2.34rem;
-    line-height: 1.1;
+    font-size: 2.05rem;
+    line-height: 1.18;
   }
 
   .split-section,
